@@ -4,6 +4,11 @@ import useDumble from "../../hooks/useDumble";
 const Card = ({ setTotalTime }) => {
   const items = useDumble();
 
+  const clickHandler = (item) => {
+    
+    setTotalTime((prevTime) => prevTime + item.time)
+  }
+
   return (
     <div className="cardContainer">
       {items.map((item) => (
@@ -16,8 +21,8 @@ const Card = ({ setTotalTime }) => {
             <p className="description">{item.body}</p>
             <p>For Age: {item.age}</p>
             <p>Time required : {item.time}s</p>
-            <button
-              onClick={() => setTotalTime((prevTime) => prevTime + item.time)}
+            <button 
+              onClick={() => clickHandler(item)}
             >
               Add To List
             </button>

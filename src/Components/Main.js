@@ -5,7 +5,8 @@ import Card from './Top/Card';
 import Top from './Top/Top';
 
 const Main = () => {
-    const [totalTime, setTotalTime] = useState(0)
+    const [totalTime, setTotalTime] = useState(0);
+    const [breakTime, setBreakTime] = useState(0);
     return (
         <div className='fullBody'>
             <div className='main'>
@@ -14,7 +15,8 @@ const Main = () => {
                     <Card setTotalTime={setTotalTime} />
                 </div>
                 <div className='right'>
-                    <Saidebar totalTime={totalTime} />
+                <Saidebar 
+                totalTime={totalTime} breakTime={breakTime} setBreakTime={setBreakTime}  />
                 </div>
             </div>
             <Footer/>
