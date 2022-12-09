@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Bench press",
+      "body": "The bench press, or chest press, is a weight training exercise in which the trainee presses a weight upwards while lying on.",
+      "age": "18-30",
+      "time": 45,
+      "img": "/img/user1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Planks",
+      "body": "Planks are a core strengthening move that never gets old and there are seemingly endless variations to hit every angle of your core.",
+      "age": "10-30",
+      "time": 120,
+      "img": "/img/user2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Running",
+      "body": "Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. Running is a type of gait.",
+      "age": "10-30",
+      "time": 40,
+      "img": "/img/running.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Deadlift",
+      "body": "The bread and butter of countless gym routines, this move, if done properly, will predominantly engage your back and legs.",
+      "age": "15-30",
+      "time": 60,
+      "img": "/img/user4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Suspended Pushup",
+      "body": "Trainers far and wide have touted the usefulness of suspension-training systems like the TRX for years, and the fitness.",
+      "age": "20-40",
+      "time": 45,
+      "img": "/img/user5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Pushups",
+      "body": "We went over the diamond pushups earlier for triceps, but if you’re looking to really increase the strength and size of your chest.",
+      "age": "10-50",
+      "time": 60,
+      "img": "/img/user6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Cycling",
+      "body": "Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation.",
+      "age": "07-45",
+      "time": 120,
+      "img": "/img/cycling.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Squat",
+      "body": "The squat is one of the most basic, fundamental compound moves to have in your arsenal. The barbell back squat is the classic.",
+      "age": "20-30",
+      "time": 30,
+      "img": "/img/user8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Battle Ropes",
+      "body": "Battle ropes target most of the muscles in your body, including those in your abdominals, shoulders, arms, upper and lower back.",
+      "age": "10-50",
+      "time": 60,
+      "img": "/img/user9.jpg"
+    }
+  ]

@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body
+{
+    background: #f2f4fa;
+}
+.main
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.main .left
+{
+    position: relative;
+    width: 75%;
+    margin-bottom: 40px;
+}
+.main .right
+{
+    position: relative;
+    width: 25%;
+    background: #fff;
+    padding: 0 30px;
+}
+.heading
+{
+    width: 75%;
+    margin: 100px auto 40px auto;
+}
+.heading h1
+{
+    font-size: 2em;
+    color: #5d5fef;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.heading h3
+{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+.cardContainer
+{
+    position: relative;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: auto;
+    gap: 30px;
+}
+.card
+{
+    height: 420px;
+    width: 280px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+.card .img-box
+{
+    position: relative;
+    height: 40%;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.card .img-box img
+{
+    width: 100%;
+}
+.card .text-box
+{
+    position: relative;
+    display: grid;
+    gap: 5px;
+}
+.card .text-box h4
+{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.card .text-box p.description
+{
+    color: #969696;
+    font-weight: 400;
+}
+.card .text-box p
+{
+    color: #3d3d3d;
+    margin: 2px 0;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.card .text-box button
+{
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    color: #fff;
+    font-size: 0.9em;
+    background: #5d5fef;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.sidebar
+{
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.authorBox
+{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.authorBox .img-box
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.authorBox .img-box img
+{
+    position: relative;
+    height: 100%;
+}
+.authorBox .author-name h3
+{
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+.authorBox .author-name p
+{
+    color: #8cb4d9;
+    font-weight: 400;
+}
+.details
+{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #f2f4fa;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.details .box h3
+{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.details .box h3 span
+{
+    font-size: 15px;
+    color: #9dacc1;
+    font-weight: 400;
+}
+.details .box p
+{
+    font-size: 1.1em;
+    color: #9dacc1;
+}
+.break
+{
+    position: relative;
+    margin-top: 30px;
+
+}
+.break h2,
+.exercise h2
+{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.break .break-time {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f4fa;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.break .break-time p
+{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 15px 14px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.break .break-time p:hover
+{
+    background: #5d5fef;
+    color: #fff;
+}
+.exercise
+{
+    margin: 40px 0;
+}
+.exercise .exercise-time,
+.exercise .break-time
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background: #f2f4fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.exercise h4
+{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.exercise p
+{
+    color: #8cb4d9;
+}
+
+
+
+.footer
+{
+    text-align: center;
+    padding: 50px 0;
+    background: #3d3d3d;
+    color: #fff;
+}
