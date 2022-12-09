@@ -33,6 +33,10 @@ body {
   font-weight: 700;
   margin-bottom: 50px;
 }
+.heading button
+{
+    display: none;
+}
 .heading h3 {
   font-size: 1.4em;
   font-weight: 400;
@@ -391,55 +395,72 @@ body {
     .heading {
         margin: 40px auto 30px auto;
       }
-    /* .main .right {
-        padding: 0 10px;
+}
+@media (max-width: 540px){
+    .main {
+        position: relative;
+        display: block;
       }
-    .cardContainer {
-        gap: 20px;
+      .main .left {
+        width: 100%;
       }
-    .card {
-        width: 240px;
-        padding: 10px;
+      .main .right {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
       }
-       .card .img-box {
-        height: 35%;
-      }
-      .card .img-box img {
-        height: 100%;
-      }
-      .card .text-box h4 {
-        font-size: 1.1em;
-      }
-      .card .text-box button {
+      .heading button
+    {
+        display: block;
         position: absolute;
-        top: 200px;
+        top: 5px;
+        right: 20px;
+        padding: 1px 2px;
+        font-size: 1.5em;
+        border: none;
+        color: #5d5fef;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 414px){
+    .heading h1 {
+        font-size: 1.5em;
       }
-      .sidebar {
-        padding: 0;
+      .heading h3 {
+        font-size: 1.2em;
       }
-      .authorBox {
-        gap: 10px;
+      .heading button
+      {
+          top: 1px;
       }
-      .details .box h3 {
-        font-size: 1.3em;
-      }
-      .details .box h3 span {
-        font-size: 12px;
-      }
-      .details .box p {
-        font-size: 0.8em;
-      }
-      .break .break-time {
-        padding: 10px 5px;
+      .cardContainer {
+        width: 100%;
+        margin: 0 0 0 70px;
+        grid-template-columns: auto;
       }
       
-      .exercise h4 {
-        font-size: 0.9em;
-      }
-      .exercise p {
-        font-size: 0.8em;
-      }
-      .exercise button {
+}
+@media (max-width: 280px){
+    .heading h1 {
         font-size: 1em;
-      } */
+      }
+      .heading h3 {
+        font-size: 0.9em;
+        font-weight: 400;
+      }
+      .heading button
+      {
+          top: 1px;
+          font-size: 1em;
+      }
+      .cardContainer {
+        margin: 0 0 0 15px;
+        grid-template-columns: auto;
+      }
+      .footer p
+      {
+        font-size: 12px;
+      }
 }
